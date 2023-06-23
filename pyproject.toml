@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sdet-studying"
+version = "0.1.0"
+description = ""
+authors = ["DimaQA <dimon.chernishov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sdet_studying"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selene = {version = "^2.0.0rc2", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

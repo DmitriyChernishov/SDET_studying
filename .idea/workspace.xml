@@ -3,9 +3,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="803da365-7b3f-4aa5-9aad-d38b7b7f092c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +49,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_smoke.test_smoke">
     <configuration name="test_smoke" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDET_studying" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,8 +73,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_smoke.test_smoke" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SDET_studying" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_smoke.test_smoke&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_smoke.test_smoke" />
         <item itemvalue="Python.test_smoke" />
       </list>
     </recent_temporary>
@@ -69,32 +105,60 @@
       <option name="presentableId" value="Default" />
       <updated>1687520822023</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit for checked and review">
+      <created>1687527398877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687527398878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit for checked and review" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit for checked and review" />
   </component>
   <component name="WindowStateProjectService">
     <state x="807" y="277" key="FileChooserDialogImpl" timestamp="1687524485410">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="277" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1687524485410" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1687525095501">
+    <state width="1899" height="562" key="GridCell.Tab.0.bottom" timestamp="1687681865118">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1687525095501" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1687525095501">
+    <state width="1899" height="562" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1687681865118" />
+    <state width="1899" height="562" key="GridCell.Tab.0.center" timestamp="1687681865118">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1687525095501" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1687525095501">
+    <state width="1899" height="562" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1687681865118" />
+    <state width="1899" height="562" key="GridCell.Tab.0.left" timestamp="1687681865117">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1687525095501" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1687525095501">
+    <state width="1899" height="562" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1687681865117" />
+    <state width="1899" height="562" key="GridCell.Tab.0.right" timestamp="1687681865118">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1687525095501" />
-    <state x="528" y="167" key="SettingsEditor" timestamp="1687524736310">
+    <state width="1899" height="562" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1687681865118" />
+    <state x="528" y="167" key="SettingsEditor" timestamp="1687528845244">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="528" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1687524736310" />
+    <state x="528" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1687528845244" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1687527409695">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1687527409695" />
   </component>
 </project>

@@ -22,7 +22,7 @@ def test_smoke():
     browser.all("#todo-list>li").by(be.visible).should(have.texts('b'))
 
     browser.element(by.link_text("All")).click()
-    browser.element(by.css("[data-index='1'] .destroy")).click()
+    browser.all("#todo-list>li").element_by(have.exact_text('b')).element(".destroy").click()
     browser.all("#todo-list>li").should(have.texts('a', 'c'))
 
     browser.element(by.text("a")).double_click()
